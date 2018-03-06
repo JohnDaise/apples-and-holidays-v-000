@@ -74,6 +74,7 @@ def all_holidays_with_bbq(holiday_hash)
   #holiday_hash.select{|season, holiday| holiday }.keys
   holiday_hash.each do |season, holidays|
     holidays.each do |holiday, supplies|
+      supplies.include?("BBQ")
 
   #holiday_hash.invert #["BBQ"]
 end
