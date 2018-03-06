@@ -78,11 +78,7 @@ def all_holidays_with_bbq(holiday_hash)
       if supplies.include?("BBQ")
           b << holiday
       end
-
     end
   end
-
-
-
   #holiday_hash.invert #["BBQ"]
 end
