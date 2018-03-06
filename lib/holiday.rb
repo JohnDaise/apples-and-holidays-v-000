@@ -73,6 +73,6 @@ def all_holidays_with_bbq(holiday_hash)
   # include the string "BBQ"
   #holiday_hash.map {|season, holidays| holidays[:supplies] == "BBQ"}
 
-  holiday_hash.select{|season, holiday| supplies == "BBQ"}.keys
+  holiday_hash.select{|season, holiday|  == "BBQ"}.keys
   #holiday_hash.invert #["BBQ"]
 end
